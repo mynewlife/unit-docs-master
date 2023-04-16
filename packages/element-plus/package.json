@@ -1,0 +1,30 @@
+{
+  "name": "@ai-unit/ai-element-plus",
+  "version": "1.0.0",
+  "description": "组件element-plus二次封装",
+  "main": "dist/ai-element-plus.cjs.js",
+  "moudle": "dist/ai-element-plus.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "docs:build": "vite build --mode docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.2.0",
+    "element-plus": "^2.2.0"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "@ai-unit/ai-shared": "workspace:*",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "element-plus": "^2.2.8",
+    "vue": "^3.2.36",
+    "vue-router": "4",
+    "sass": "^1.58.0"
+  }
+}

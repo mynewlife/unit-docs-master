@@ -1,0 +1,61 @@
+Arguments: 
+  F:\environment\node\node.exe C:\Users\17802\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\VMware\bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Download\hugo_0.88.1_Windows-64bit;d:\Program Files\Git\cmd;F:\Android\java\jdk1.8.0_301\bin;%MAVEN_HOME%\bin;F:\Android\gradle-6.9.2\bin;F:\Android\java\jdk1.8.0_301\bin;F:\Android\java\jdk1.8.0_301\jre\bin;F:\Android\android-sdk\tools;F:\Android\android-sdk\platform-tools;F:\Android\gradle-6.9.2\bin;E:\Tencent\微信web开发者工具\dll;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\17802\AppData\Local\Microsoft\WindowsApps;C:\Users\17802\AppData\Local\GitHubDesktop\bin;C:\ProgramData\17802\GitHubDesktop\bin;E:\Microsoft VS Code\bin;C:\Users\17802\AppData\Roaming\npm;F:\environment\nvm;F:\environment\node
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/@ai-unit%2fai-element-plus: socket hang up
+      at connResetException (internal/errors.js:639:14)
+      at TLSSocket.socketOnEnd (_http_client.js:499:23)
+      at TLSSocket.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "@ai-unit/docs",
+    "version": "1.0.0",
+    "scripts": {
+      "docs:dev": "vitepress dev",
+      "docs:build": "vitepress build",
+      "docs:serve": "vitepress serve"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@element-plus/icons-vue": "^2.0.6",
+      "@ai-unit/ai-element-plus": "workspace:*",
+      "@vueuse/core": "^8.7.5",
+      "element-plus": "^2.2.8",
+      "sass": "^1.58.0",
+      "prismjs": "^1.28.0",
+      "vue": "^3.2.37",
+      "@vue/compiler-sfc": "3.2.44",
+      "markdown-it-container": "^3.0.0",
+      "markdown-it": "^13.0.1",
+      "@mdit-vue/plugin-sfc": "^0.11.1"
+    },
+    "devDependencies": {
+      "@types/markdown-it": "^12.2.3",
+      "@types/node": "^18.0.3",
+      "@vitejs/plugin-vue": "^2.3.3",
+      "vitepress": "1.0.0-alpha.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,65 @@
+Arguments: 
+  F:\environment\node\node.exe C:\Users\17802\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\VMware\bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Download\hugo_0.88.1_Windows-64bit;d:\Program Files\Git\cmd;F:\Android\java\jdk1.8.0_301\bin;%MAVEN_HOME%\bin;F:\Android\gradle-6.9.2\bin;F:\Android\java\jdk1.8.0_301\bin;F:\Android\java\jdk1.8.0_301\jre\bin;F:\Android\android-sdk\tools;F:\Android\android-sdk\platform-tools;F:\Android\gradle-6.9.2\bin;E:\Tencent\微信web开发者工具\dll;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\17802\AppData\Local\Microsoft\WindowsApps;C:\Users\17802\AppData\Local\GitHubDesktop\bin;C:\ProgramData\17802\GitHubDesktop\bin;E:\Microsoft VS Code\bin;C:\Users\17802\AppData\Roaming\npm;F:\environment\nvm;F:\environment\node
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/@ai-unit%2fai-shared: Not found
+      at Request.params.callback [as _callback] (C:\Users\17802\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\17802\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (C:\Users\17802\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (C:\Users\17802\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "@ai-unit/ai-element-plus",
+    "version": "1.0.0",
+    "description": "组件element-plus二次封装",
+    "main": "dist/ai-element-plus.cjs.js",
+    "moudle": "dist/ai-element-plus.es.js",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "docs:build": "vite build --mode docs"
+    },
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+      "vue": "^3.2.0",
+      "element-plus": "^2.2.0"
+    },
+    "dependencies": {
+      "@element-plus/icons-vue": "^2.0.6",
+      "@ai-unit/ai-shared": "workspace:*",
+      "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^2.3.3",
+      "element-plus": "^2.2.8",
+      "vue": "^3.2.36",
+      "vue-router": "4",
+      "sass": "^1.58.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

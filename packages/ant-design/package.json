@@ -1,0 +1,24 @@
+{
+  "name": "@ai-unit/ai-ant-design",
+  "version": "1.0.0",
+  "description": "组件ant-design二次封装",
+  "main": "dist/ai-ant-design.cjs.js",
+  "module": "dist/ai-ant-design.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "antd": "^4.21.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "vite": "^2.9.13"
+  }
+}

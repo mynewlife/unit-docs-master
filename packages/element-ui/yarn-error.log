@@ -1,0 +1,65 @@
+Arguments: 
+  F:\environment\node\node.exe C:\Users\17802\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\VMware\bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Download\hugo_0.88.1_Windows-64bit;d:\Program Files\Git\cmd;F:\Android\java\jdk1.8.0_301\bin;%MAVEN_HOME%\bin;F:\Android\gradle-6.9.2\bin;F:\Android\java\jdk1.8.0_301\bin;F:\Android\java\jdk1.8.0_301\jre\bin;F:\Android\android-sdk\tools;F:\Android\android-sdk\platform-tools;F:\Android\gradle-6.9.2\bin;E:\Tencent\微信web开发者工具\dll;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\17802\AppData\Local\Microsoft\WindowsApps;C:\Users\17802\AppData\Local\GitHubDesktop\bin;C:\ProgramData\17802\GitHubDesktop\bin;E:\Microsoft VS Code\bin;C:\Users\17802\AppData\Roaming\npm;F:\environment\nvm;F:\environment\node
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/@ai-unit%2fai-shared: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\17802\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141390:19)
+      at Object.onceWrapper (events.js:519:28)
+      at ClientRequest.emit (events.js:400:28)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:519:28)
+      at TLSSocket.emit (events.js:412:35)
+      at TLSSocket.Socket._onTimeout (net.js:495:8)
+      at listOnTimeout (internal/timers.js:557:17)
+      at processTimers (internal/timers.js:500:7)
+
+npm manifest: 
+  {
+    "name": "@ai-unit/ai-element-ui",
+    "version": "1.0.0",
+    "description": "组件element-ui二次封装",
+    "main": "dist/ai-element-ui.cjs.js",
+    "module": "dist/ai-element-ui.es.js",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "docs:build": "vite build --mode docs"
+    },
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+      "element-ui": "^2.15.0",
+      "vue": "^2.6.0"
+    },
+    "dependencies": {
+      "@ai-unit/ai-shared": "workspace:*",
+      "lodash": "^4.17.21",
+      "lodash-es": "^4.17.21",
+      "sass": "^1.58.0"
+    },
+    "devDependencies": {
+      "element-ui": "^2.15.6",
+      "vite-plugin-vue2": "^2.0.1",
+      "vue": "~2.6.0",
+      "vue-router": "3",
+      "vue-template-compiler": "~2.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,31 @@
+{
+  "name": "@ai-unit/ai-element-ui",
+  "version": "1.0.0",
+  "description": "组件element-ui二次封装",
+  "main": "dist/ai-element-ui.cjs.js",
+  "module": "dist/ai-element-ui.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "docs:build": "vite build --mode docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "element-ui": "^2.15.0",
+    "vue": "^2.6.0"
+  },
+  "dependencies": {
+    "@ai-unit/ai-shared": "workspace:*",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "sass": "^1.58.0"
+  },
+  "devDependencies": {
+    "element-ui": "^2.15.6",
+    "vite-plugin-vue2": "^2.0.1",
+    "vue": "~2.6.0",
+    "vue-router": "3",
+    "vue-template-compiler": "~2.6.0"
+  }
+}
